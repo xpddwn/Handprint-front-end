@@ -1,0 +1,67 @@
+{
+	"item": [
+		{
+			"index": "1",
+			"type": "qrcode",
+			"x": "0",
+			"y": "0",
+			"content": "手持打印机",
+			"refix": "H",
+			"size": "4"
+		},
+		{
+			"index": "2",
+			"type": "text",
+			"x": "120",
+			"y": "0",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "二维码："
+		},
+		{
+			"index": "3",
+			"type": "text",
+			"x": "120",
+			"y": "40",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "打印日期："
+		},
+		{
+			"index": "4",
+			"type": "text",
+			"x": "120",
+			"y": "80",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "打印日期："
+		},
+		{
+			"index": "5",
+			"type": "text",
+			"x": "250",
+			"y": "0",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "手持打印机"
+		},
+		{
+			"index": "6",
+			"type": "date",
+			"x": "250",
+			"y": "40",
+			"dformate": "y年m月d日",
+			"fontsize": "20",
+			"content": "2014年11月30日"
+		},
+		{
+			"index": "7",
+			"type": "time",
+			"x": "250",
+			"y": "80",
+			"tformate": "h:i:s",
+			"fontsize": "20",
+			"content": "18:45:24"
+		}
+	]
+}

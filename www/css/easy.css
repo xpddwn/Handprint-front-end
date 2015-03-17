@@ -1,0 +1,313 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+
+li {
+	float: left;
+}
+
+a:link,a:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+label {
+	//width: 40px;
+}
+
+div#nav {
+	width: 100px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px; //
+	background: red;
+}
+
+div#main {
+	display: inline;
+	margin: 0;
+	padding: 0; 
+}
+
+img {
+	boader: red;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.right,.left {
+	width: 70%;
+	position: absolute;
+}
+
+.right {
+	right: 0;
+	//background:red;
+}
+
+.left {
+	left: 0;
+	//background:blue;
+}
+.img_border
+{
+padding:1px;border:thin solid black;
+}
+
+#nav1
+{
+position:absolute; left:5px; top:10px; width:80px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#nav2
+{
+position:absolute; left:5px; top:35px; width:80px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#nav3
+{
+position:absolute; left:5px; top:60px; width:80px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#nav4
+{
+position:absolute; left:5px; top:85px; width:80px; height:20px; overflow:auto; border:1px solid #000000;
+}
+
+#opt1
+{
+position:absolute; left:5px; top:215px; width:60px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#opt2
+{
+position:absolute; left:70px; top:215px; width:60px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#opt3
+{
+position:absolute; left:135px; top:215px; width:60px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#opt4
+{
+position:absolute; left:190px; top:215px; width:60px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#opt5
+{
+position:absolute; left:255px; top:215px; width:60px; height:20px; overflow:auto; border:1px solid #000000;
+}
+#content
+{
+position:absolute; left:85px; top:10px; width:230px; height:200px; overflow:auto; border:1px solid #000000;
+}
+
+.left_fixed_div{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:80px;
+	height:100%;
+	z-index:8;
+	background:#ffffff;
+}
+
+.bottom_fixed_div{
+	position:fixed;
+	bottom:0px;
+	z-index:9;
+	background:#ffffff;
+	width:640px;
+}
+
+.middle_fixed_div{
+	position:fixed;
+	left:10px;
+	top:50px;
+}
+
+.shade_div{
+	position: fixed;
+	height:50px;
+	top:210px;
+	width:155px;
+}
+
+.content{
+position:fixed;
+left:10px;
+top:46px;
+z-index:7;
+border-style:solid;border-color:#dddddd #777777 #777777 #dddddd;
+overflow:auto;
+ width:155px;
+ height:150px;
+}
+
+.editres{
+position:fixed;
+left:10px;
+top:46px;
+z-index:7;
+border-style:solid;border-color:#dddddd #777777 #777777 #dddddd;
+overflow:auto;
+ width:600px;
+ height:330px;
+}
+
+.edit{
+position:fixed;
+left:10px;
+top:46px;
+z-index:7;
+border-style:solid;border-color:#dddddd #777777 #777777 #dddddd;
+overflow:auto;
+ width:235px;
+ height:250px;
+}
+
+.setting{
+position:fixed;
+left:10px;
+top:46px;
+z-index:7;
+border-style:solid;border-color:#dddddd #777777 #777777 #dddddd;
+overflow:auto;
+ width:600px;
+ height:250px;	
+}
+
+//body {text-align: center;}
+.tab_div{border-width:1px;border-style:solid;border-color:#dddddd #777777 #777777 #dddddd;}
+.tab_header{border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;background:#ffcccc;width: 290px;font-size: 90%;}
+.tab_setting{border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;background:#ffcccc;width: 295px;font-size: 90%;}
+.tab_td {border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;width:195px;}
+.tab_item{border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;background:#ffcccc;width: 100px;font-size: 90%;}
+.tab_fd {border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;width:135px;}
+.tab_set{border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;background:#ffcccc;width: 290px;font-size: 90%;}
+.tab_dd {border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;width:295px;}
+#date input,#time input,#col_delay input,#on_delay input,#direction input,#sync_mode input{
+	width:295px;
+}
+td{border-width:1px;border-style:solid;border-color:#777777 #dddddd #dddddd #777777;}
+input {
+	width: 50px;
+}
+.tab_dd input{
+	width:295px;
+}
+.tab_dd select{
+	width:295px;
+}
+.tab_fd input{
+	width:135px;
+}
+.tab_fd select{
+	width:135px;
+}
+select{
+	width:60px;
+	font-size: 80%;
+}
+
+input:focus,select:focus,button:focus {  
+    background-color: #FF6;  
+}  
+
+/*- Menu Tabs 5--------------------------- */
+
+    .tabs5 {
+      width:640px;
+      background:#E3ECF3;
+      font-size:90%;
+      line-height:normal;
+
+      }
+    .tabs5 ul {
+	  margin:0;
+	  padding:10px 10px 0 20px;
+	  list-style:none;
+      }
+    .tabs5 li {
+      display:inline;
+      width: 145px;
+      margin:0;
+      padding:0;
+      }
+    .tabs5 a {
+      float:left;
+      background:url("images/tableft5.gif") no-repeat left top;
+      margin:0;
+      width: 145px;
+      padding:0 0 0 0px;
+      text-decoration:none;
+      }
+    .tabs5 a span {
+      float:left;
+      display:block;
+      width: 145px;
+      background:url("images/tabright5.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    .tabs5 a span {float:none; width: 140px }
+    /* End IE5-Mac hack */
+    .tabs5 a:focus span {
+      color:#FFF;
+      }
+    .tabs5 a:focus {
+      background-position:0% -42px;
+      }
+    .tabs5 a:focus span {
+      background-position:100% -42px;
+      }  
+
+/*.......new row............*/
+      .btn6
+{
+	width:80px;
+	height:28px;
+	line-height:14px;
+	font-size:14px;
+	padding-bottom:4px;	
+}
+
+/*.......submit button.............*/
+.btn26
+{
+	width:50px;
+	height:24px;
+	line-height:14px;
+	font-size:13px;
+	padding-bottom:4px;
+}
+
+/*........about button..........*/
+.btn23
+{
+	width:223px;
+	height:45px;
+	background:url("images/bg23.jpg") no-repeat left top;
+	color:#666;
+	padding-left:18px;
+}
+
+/*........move div...............*/
+.move_div
+{
+	position:fixed;
+    left:10px;
+	top:46px;
+	z-index:7;
+	overflow: auto;
+	border-style:solid;border-color:#dddddd #777777 #777777 #dddddd;
+	width:600px;
+	height:250px;
+}

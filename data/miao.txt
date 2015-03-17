@@ -1,0 +1,114 @@
+{
+	"item": [
+		{
+			"index": "1",
+			"type": "text",
+			"x": "0",
+			"y": "25",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "印刷日期："
+		},
+		{
+			"index": "2",
+			"type": "text",
+			"x": "0",
+			"y": "50",
+			"font": "arial",
+			"fontsize": "20",
+			"content": "印   刷："
+		},
+		{
+			"index": "3",
+			"type": "text",
+			"x": "0",
+			"y": "75",
+			"font": "arial",
+			"fontsize": "20",
+			"content": "装    订："
+		},
+		{
+			"index": "4",
+			"type": "text",
+			"x": "0",
+			"y": "100",
+			"font": "arial",
+			"fontsize": "20",
+			"content": "出版发行："
+		},
+		{
+			"index": "5",
+			"type": "date",
+			"x": "100",
+			"y": "25",
+			"dformate": "y年m月d日",
+			"fontsize": "20",
+			"content": "2015年01月18日"
+		},
+		{
+			"index": "6",
+			"type": "text",
+			"x": "100",
+			"y": "50",
+			"font": "arial",
+			"fontsize": "20",
+			"content": "北京智力达印刷公司"
+		},
+		{
+			"index": "7",
+			"type": "text",
+			"x": "100",
+			"y": "75",
+			"font": "arial",
+			"fontsize": "20",
+			"content": "北京中新印刷公司"
+		},
+		{
+			"index": "8",
+			"type": "text",
+			"x": "100",
+			"y": "100",
+			"font": "arial",
+			"fontsize": "20",
+			"content": "电子工业出版社"
+		},
+		{
+			"index": "9",
+			"type": "counter",
+			"x": "100",
+			"y": "122",
+			"updown": "up",
+			"fontsize": "20",
+			"content": "1",
+			"step": "1",
+			"cycle": "0"
+		},
+		{
+			"index": "10",
+			"type": "text",
+			"x": "0",
+			"y": "122",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "计数器："
+		},
+		{
+			"index": "11",
+			"type": "time",
+			"x": "100",
+			"y": "0",
+			"tformate": "h:i:s",
+			"fontsize": "20",
+			"content": "13:32:43"
+		},
+		{
+			"index": "12",
+			"type": "text",
+			"x": "0",
+			"y": "0",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "印刷时间："
+		}
+	]
+}

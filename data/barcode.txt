@@ -1,0 +1,49 @@
+{
+	"item": [
+		{
+			"index": "1",
+			"type": "barcode",
+			"x": "0",
+			"y": "0",
+			"content": "printer",
+			"codetype": "barcode",
+			"size": "1"
+		},
+		{
+			"index": "2",
+			"type": "text",
+			"x": "0",
+			"y": "100",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "打印内容："
+		},
+		{
+			"index": "3",
+			"type": "text",
+			"x": "120",
+			"y": "100",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "printer"
+		},
+		{
+			"index": "4",
+			"type": "text",
+			"x": "0",
+			"y": "130",
+			"font": "simkai",
+			"fontsize": "20",
+			"content": "打印日期："
+		},
+		{
+			"index": "5",
+			"type": "date",
+			"x": "120",
+			"y": "130",
+			"dformate": "y年m月d日",
+			"fontsize": "20",
+			"content": "2014年11月30日"
+		}
+	]
+}

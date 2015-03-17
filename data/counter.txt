@@ -1,0 +1,33 @@
+{
+	"item": [
+		{
+			"index": "1",
+			"type": "counter",
+			"x": "0",
+			"y": "0",
+			"updown": "up",
+			"fontsize": "20", 
+			"content": "1",
+			"step": "1",
+			"cycle": "3"
+		},
+		{
+			"index": "2",
+			"type": "date",
+			"x": "100",
+			"y": "0",
+			"dformate": "y/m/d",
+			"fontsize": "20",
+			"content": "2015/02/07"
+		},
+		{
+			"index": "3",
+			"type": "date",
+			"x": "0",
+			"y": "100",
+			"dformate": "y年m月d日",
+			"fontsize": "20",
+			"content": "2015年02月07日"
+		}
+	]
+}

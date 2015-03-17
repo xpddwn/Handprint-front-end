@@ -1,0 +1,13 @@
+{
+	"item": [
+		{
+			"index": "1",
+			"type": "time",
+			"x": "0",
+			"y": "0",
+			"tformate": "h:i:s",
+			"fontsize": "20",
+			"content": "14:54:51"
+		}
+	]
+}

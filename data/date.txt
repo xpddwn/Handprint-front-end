@@ -1,0 +1,13 @@
+{
+	"item": [
+		{
+			"index": "1",
+			"type": "date",
+			"x": "0",
+			"y": "0",
+			"dformate": "y/m/d",
+			"fontsize": "20",
+			"content": "2015/01/18"
+		}
+	]
+}
